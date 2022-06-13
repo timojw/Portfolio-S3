@@ -2,6 +2,7 @@
 
 ## Table of Contents
    - [Project description](#Project-description)
+   - [Class Diagram](#class-diagram)
    - [C4 Models](#C4-Models)
      - [C2 Container Diagram](#C2-Container-Diagram)
      - [C3 Component Model](#C3-Component-Model)
@@ -17,31 +18,35 @@
 ## Project description
 The goal of this project was to create an application for food deliverers, to make them more efficient, easy to use and eventually to make sure the food gets delivered faster. I chose this project due to the fact that I work at a restaurant that also does food delivery. We use an existing app for that, although it is lacking some features and definately could use an upgrade.
 
+## Class Diagram
+Class diagrams are the blueprints of your system or subsystem. You can use class diagrams to model the objects that make up the system, to display the relationships between the objects, and to describe what those objects do and the services that they provide.
+![class diagram](../Media/Class%20Diagram.png)
+
+I have decided to make a Class Diagram because working with the class diagram was great for me in past semesters. It also really sped up the development further on. By making it I also finaly decided on what the structure of the project would be for the time being.
+
+#### Sources:
+- [Class Diagrams](https://www.ibm.com/docs/en/rsm/7.5.0?topic=structure-class-diagrams)
+
+
 ## C4 Models 
 ### C2 Container Diagram
 In this diagram you can see that the homeowner has access to the HAP-dashboard. The homeowner has the possibility to Browse all IOT measurements from the browser when authorized by the login provider Auth0.
 
-<!-- <img src="https://i.postimg.cc/85XyDTzZ/image.png"> -->
-
 ### C3 Component Model
 In this model you can see which services the client uses, if a user makes a request, it goes through the controller that allows the user to use the sensor data, the data access component will provide the functionality related to signing in and sensor data storage.
-
-<!-- <img src="https://i.postimg.cc/7LFRTHkb/image.png"> -->
 
 ## Outcome 1: You design and build user friendly full stack web applications
 You design and build user friendly full stack web applications
 
 ### Front-end
-Repository: [Front-End](https://github.com/timojw/frontend-Individueel2)
+Repository: [Front-End Individueel](https://github.com/timojw/frontend-Individueel2)
 
 ### Back-end
 Repository: [Individuele Project](https://github.com/timojw/Individuele-Project)
 
 ![structure](../Media/layers.jpg)
 
-As seen above I have used multiple layers to structure my API. In the Image below you can see how which layer is dependent on which.
-
-![structure](../Media/Layer%20Diagram.png)
+As seen above I have used multiple layers to structure my API. To keep the dependencies right I used dependency inversion using an dependency injection container located in the program.cs
 
 ![controller](../Media/controller.jpg)
 
@@ -131,8 +136,7 @@ The file seen below basically tells github how to build and deploy the applicati
             individueel:latest
     
 
-Sources:
-
+#### Sources:
 - [Docker Simplified: A Hands-On Guide for Beginners](https://medium.com/free-code-camp/docker-simplified-96639a35ff36#06d9)
 
 - [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
@@ -145,7 +149,9 @@ You act in a professional manner during software development and learning
 For the group project I extensively used Taiga as a way to keep track of our features and the progress we were making. All the tasks were linked to a requirement that we put up before the project started. Once a sprint was over we devided a few of the remaining learning outcomes into tasks and divided them over our group.
 ![taiga](../Media/taiga.png)
 
-I chose not to make a project board for my own individual project due to the fact that it takes lots of time to properly maintain, which was time I could spend elsewhere. Also the benefits of using such a project board in group projects are way bigger due to the fact that other people are also able to see your progress this way.
+Taiga is definately a website that I would recommend for this. It seems more professional than trello which I used before. Although it did also have some disadvantages like the fact that you can only assign one person to a task.
+
+I chose not to make a project board for my own individual project due to the fact that it takes lots of time to properly maintain, which was time I could spend elsewhere. Also the benefits of using such a project board in group projects are way bigger due to the fact that other people are also able to see your progress that way.
 ### ToDo List
 For the last couple of weeks I decided to make a ToDo list for myself after a feedback talk with one of my teachers who recommended me this. I know this is kinda a primitive technique but it worked wonders for me. During these weeks I made the most progress, which was partly caused by the list.
 ![todo](../Media/todo.png)
