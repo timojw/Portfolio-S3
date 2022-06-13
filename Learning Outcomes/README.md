@@ -1,58 +1,81 @@
-__My Learning Outcomes__
+# My Learning Outcomes
 
-__Table of Contents__
+## Table of Contents
+   - [Project description](#Project-description)
+   - [C4 Models](#C4-Models)
+     - [C2 Container Diagram](#C2-Container-Diagram)
+     - [C3 Component Model](#C3-Component-Model)
+   - [Outcome 1: You design and build user friendly full stack web applications](#Outcome-1-You-design-and-build-user-friendly-full-stack-web-applications)
+     - [Front-End](#front-end)
+     - [Back-End](#back-end)
+   - [Outcome 2: Tooling and methodology](#Outcome-2-Tooling-and-methodology)
+   - [Outcome 3: Design and implement (release process)](#Outcome-3-Design-and-implement-release-process)
+   - [Outcome 4: Professional manner](#Outcome-4-Professional-manner)
 
-1. Web Application
-2. Software Quality
-3. CI/CD
-4. Professional
-   
-__Web Application__
-1. Front-end
-2. Back-end
+## Project description
 
-    Back-end
-    Respository: [Individuele Project](https://github.com/timojw/Individuele-Project)
+## C4 Models 
+### C2 Container Diagram
+In this diagram you can see that the homeowner has access to the HAP-dashboard. The homeowner has the possibility to Browse all IOT measurements from the browser when authorized by the login provider Auth0.
 
-    ![structure](../Media/layers.jpg)
+<!-- <img src="https://i.postimg.cc/85XyDTzZ/image.png"> -->
 
-    As seen above I have used multiple layers to structure my API. In the Image below you can see how which layer is dependent on which.
+### C3 Component Model
+In this model you can see which services the client uses, if a user makes a request, it goes through the controller that allows the user to use the sensor data, the data access component will provide the functionality related to signing in and sensor data storage.
 
-    ![structure](../Media/Layer%20Diagram.png)
+<!-- <img src="https://i.postimg.cc/7LFRTHkb/image.png"> -->
 
-    ![controller](../Media/controller.jpg)
+## Outcome 1: You design and build user friendly full stack web applications
+You design and build user friendly full stack web applications
 
-    Above you can see how my controller is structured. It also has custom return messages. I have decided to build my back-end using the c# language because I had previous experience making an API in c# in the GroupProject.
+### Front-end
+Repository: [Front-End](https://github.com/timojw/frontend-Individueel2)
 
-    ![swagger](../Media/Screenshot%202022-06-13%20113710.jpg)
+### Back-end
+Repository: [Individuele Project](https://github.com/timojw/Individuele-Project)
 
-    In the picture above you can see that i have used Swagger UI for the documentation of my API. Because it saves me a lot of time for API documentation. And is comprehensible for developers and non-developers.
+![structure](../Media/layers.jpg)
 
-__Software Quality__
+As seen above I have used multiple layers to structure my API. In the Image below you can see how which layer is dependent on which.
 
-    For this learning outcome I made automated tests for my API. I also used the automatically generated SQL Database which is stored locally as my test database to test Integration and Unit tests.
+![structure](../Media/Layer%20Diagram.png)
 
-    1. Unit Testing
+![controller](../Media/controller.jpg)
 
-    2. Integration Testing
-    3. Automated Testing
-    4. Merge Checks / SonarCloud
+Above you can see how my controller is structured. It also has custom return messages. I have decided to build my back-end using the c# language because I had previous experience making an API in c# in the GroupProject.
 
-__CI/CD__
+![swagger](../Media/Screenshot%202022-06-13%20113710.jpg)
 
-1. Docker
+<img src="">
 
-    In simple terms, Docker is a software platform that simplifies the process of building, running, managing and distributing applications. It does this by virtualizing the operating system of the computer on which it is installed and running. It allows us to use containers of the application that can run everywhere. I use docker because I want to automatically build and deploy my application once I push to the main branch on github.
+In the picture above you can see that i have used Swagger UI for the documentation of my API. Because it saves me a lot of time for API documentation. And is comprehensible for developers and non-developers.
 
-    Below you can see the containers I'm using. There is one for the API, Database and Front-End. They all run on the same docker. I also added a container for watchtower, which will check for updates every 10 minutes and restart the docker containers when changes are found.
+## Outcome 2: Tooling and methodology
+You use software tooling and methodology that continuously monitors and improve the software quality during software development
 
-    ![](../Media/dockercontainers.png)
+For this learning outcome I made automated tests for my API. I also used the automatically generated SQL Database which is stored locally as my test database to test Integration and Unit tests.
 
-    To automatically deploy I use a Github workflow which contains some tests as well. In the picture below you can see how the steps for the Build part of the workflow are structured. Both the Front-End and API automatically deploy.
+1. Unit Testing
+2. Integration Testing
+3. Automated Testing
+4. Merge Checks / SonarCloud
 
-    ![deployment](../Media/automaticdeployment1.png)
+## Outcome 3: Design and implement (release process)
+You design and implement a semi automated software release process that matches the needs of the project context
 
-   The file seen below basically tells github how to build and deploy the application.
+### Docker
+
+In simple terms, Docker is a software platform that simplifies the process of building, running, managing and distributing applications. It does this by virtualizing the operating system of the computer on which it is installed and running. It allows us to use containers of the application that can run everywhere. I use docker because I want to automatically build and deploy my application once I push to the main branch on github.
+
+Below you can see the containers I'm using. There is one for the API, Database and Front-End. They all run on the same docker. I also added a container for watchtower, which will check for updates every 10 minutes and restart the docker containers when changes are found.
+
+![](../Media/dockercontainers.png)
+
+To automatically deploy I use a Github workflow which contains some tests as well. In the picture below you can see how the steps for the Build part of the workflow are structured. Both the Front-End and API automatically deploy.
+
+![deployment](../Media/automaticdeployment1.png)
+
+The file seen below basically tells github how to build and deploy the application.
 
     ```
     name: Main
@@ -104,11 +127,13 @@ __CI/CD__
             individueel:latest
     ```
 
-    Sources:
+Sources:
 
-    [Docker Simplified: A Hands-On Guide for Beginners](https://medium.com/free-code-camp/docker-simplified-96639a35ff36#06d9)
+- [Docker Simplified: A Hands-On Guide for Beginners](https://medium.com/free-code-camp/docker-simplified-96639a35ff36#06d9)
 
-    [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
+- [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 
 
-__Professional__
+## Outcome 4: Professional manner
+You act in a professional manner during software development and learning
+![taiga](../Media/taiga.png)
