@@ -10,9 +10,12 @@
      - [Back-End](#back-end)
    - [Outcome 2: Tooling and methodology](#Outcome-2-Tooling-and-methodology)
    - [Outcome 3: Design and implement (release process)](#Outcome-3-Design-and-implement-release-process)
+     - [Docker](#docker)
+     - [GitHub Workflows](#github-workflows)
    - [Outcome 4: Professional manner](#Outcome-4-Professional-manner)
 
 ## Project description
+The goal of this project was to create an application for food deliverers, to make them more efficient, easy to use and eventually to make sure the food gets delivered faster. I chose this project due to the fact that I work at a restaurant that also does food delivery. We use an existing app for that, although it is lacking some features and definately could use an upgrade.
 
 ## C4 Models 
 ### C2 Container Diagram
@@ -60,7 +63,7 @@ For this learning outcome I made automated tests for my API. I also used the aut
 3. Automated Testing
 4. Merge Checks / SonarCloud
 
-## Outcome 3: Design and implement (release process)
+## Outcome 3: Design and implement release process
 You design and implement a semi automated software release process that matches the needs of the project context
 
 ### Docker
@@ -71,13 +74,14 @@ Below you can see the containers I'm using. There is one for the API, Database a
 
 ![](../Media/dockercontainers.png)
 
+### GitHub Workflows
+
 To automatically deploy I use a Github workflow which contains some tests as well. In the picture below you can see how the steps for the Build part of the workflow are structured. Both the Front-End and API automatically deploy.
 
 ![deployment](../Media/automaticdeployment1.png)
 
 The file seen below basically tells github how to build and deploy the application.
 
-    ```
     name: Main
 
     on:
@@ -125,7 +129,7 @@ The file seen below basically tells github how to build and deploy the applicati
             push: ${{ github.event_name != 'pull_request' }}
             tags: ${{ secrets.DOCKER_HUB_USERNAME }}/
             individueel:latest
-    ```
+    
 
 Sources:
 
@@ -135,5 +139,13 @@ Sources:
 
 
 ## Outcome 4: Professional manner
+
 You act in a professional manner during software development and learning
+### Project Board
+For the group project I extensively used Taiga as a way to keep track of our features and the progress we were making. All the tasks were linked to a requirement that we put up before the project started. Once a sprint was over we devided a few of the remaining learning outcomes into tasks and divided them over our group.
 ![taiga](../Media/taiga.png)
+
+I chose not to make a project board for my own individual project due to the fact that it takes lots of time to properly maintain, which was time I could spend elsewhere. Also the benefits of using such a project board in group projects are way bigger due to the fact that other people are also able to see your progress this way.
+### ToDo List
+For the last couple of weeks I decided to make a ToDo list for myself after a feedback talk with one of my teachers who recommended me this. I know this is kinda a primitive technique but it worked wonders for me. During these weeks I made the most progress, which was partly caused by the list.
+![todo](../Media/todo.png)
