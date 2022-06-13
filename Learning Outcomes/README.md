@@ -54,8 +54,6 @@ Above you can see how my controller is structured. It also has custom return mes
 
 ![swagger](../Media/Screenshot%202022-06-13%20113710.jpg)
 
-<img src="">
-
 In the picture above you can see that i have used Swagger UI for the documentation of my API. Because it saves me a lot of time for API documentation. And is comprehensible for developers and non-developers.
 
 ## Outcome 2: Tooling and methodology
@@ -77,7 +75,7 @@ In simple terms, Docker is a software platform that simplifies the process of bu
 
 Below you can see the containers I'm using. There is one for the API, Database and Front-End. They all run on the same docker. I also added a container for watchtower, which will check for updates every 10 minutes and restart the docker containers when changes are found.
 
-![](../Media/dockercontainers.png)
+![containers](../Media/dockercontainers.png)
 
 ### GitHub Workflows
 
@@ -85,17 +83,8 @@ To automatically deploy I use a Github workflow which contains some tests as wel
 
 ![deployment](../Media/automaticdeployment1.png)
 
-The file seen below basically tells github how to build and deploy the application.
+Below you can see part of the file that basically tells github how to build and deploy the application. You can only see the build part.
 
-    name: Main
-
-    on:
-    push:
-        branches: [ main ]
-    pull_request:
-        branches: [ main ]
-
-    jobs:
     build:
         runs-on: ubuntu-latest
         steps:
@@ -110,31 +99,8 @@ The file seen below basically tells github how to build and deploy the applicati
         run: dotnet build --no-restore "./API Individueel//"
         - name: Test
         run: dotnet test --no-build --verbosity normal "./API Individueel//"
-
-
-    deployment:
-        name: deployment
-        runs-on: ubuntu-latest
-        needs: build
-        steps:
-        - name: Checkout repository
-        uses: actions/checkout@v2
-        - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-        - name: Login to DockerHub
-        uses: docker/login-action@v1
-        with:
-            username: ${{ secrets.DOCKER_HUB_USERNAME }}
-            password: ${{ secrets.DOCKER_HUB_TOKEN }}
-        - name: Build and push
-        uses: docker/build-push-action@v2
-        with:
-            context: ./
-            file: ./API Individueel/Dockerfile
-            push: ${{ github.event_name != 'pull_request' }}
-            tags: ${{ secrets.DOCKER_HUB_USERNAME }}/
-            individueel:latest
-    
+Full file:
+[Github Workflow File](https://github.com/timojw/Individuele-Project/blob/main/.github/workflows/main.yml)
 
 #### Sources:
 - [Docker Simplified: A Hands-On Guide for Beginners](https://medium.com/free-code-camp/docker-simplified-96639a35ff36#06d9)
@@ -147,6 +113,7 @@ The file seen below basically tells github how to build and deploy the applicati
 You act in a professional manner during software development and learning
 ### Project Board
 For the group project I extensively used Taiga as a way to keep track of our features and the progress we were making. All the tasks were linked to a requirement that we put up before the project started. Once a sprint was over we devided a few of the remaining learning outcomes into tasks and divided them over our group.
+
 ![taiga](../Media/taiga.png)
 
 Taiga is definately a website that I would recommend for this. It seems more professional than trello which I used before. Although it did also have some disadvantages like the fact that you can only assign one person to a task.
@@ -154,4 +121,5 @@ Taiga is definately a website that I would recommend for this. It seems more pro
 I chose not to make a project board for my own individual project due to the fact that it takes lots of time to properly maintain, which was time I could spend elsewhere. Also the benefits of using such a project board in group projects are way bigger due to the fact that other people are also able to see your progress that way.
 ### ToDo List
 For the last couple of weeks I decided to make a ToDo list for myself after a feedback talk with one of my teachers who recommended me this. I know this is kinda a primitive technique but it worked wonders for me. During these weeks I made the most progress, which was partly caused by the list.
+
 ![todo](../Media/todo.png)
