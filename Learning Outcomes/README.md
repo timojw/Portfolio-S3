@@ -41,20 +41,47 @@ You design and build user friendly full stack web applications
 ### Front-end
 Repository: [Front-End Individueel](https://github.com/timojw/frontend-Individueel2)
 
+Due to the tight me not having a lot of time I decided to not focus much effort on the frontend. I chose this because I dislike frontend development and had heard that a minimal front-end would be sufficient for me. The frontend was made in TypeScript React. This was the first time I used this framework which is why I needed some time to get used to it. Overall I would say that the framework worked for me although the documentation on Typescript was sometimes not as good as the documentation on Javascript. 
+
+I have the Frontend communicating with my API as you can see below. I can either request data from the database or add to it. Although the current possibilities are quite limited, it does show that I am capable of making the communication happen. If I had had more time I would have definately liked to add more functionality
+
+![addtodatabase](../Media/ordercreation.png)
+
+Hieronder staat de code voor het maken van de http request naar de API. De informatie word in de body meegegeven en is een JSON formaat.
+
+    export const CreateOrder = async (Latitude:number | undefined, Longitude:number | undefined, RestaurantID:number | undefined) => {
+      const data = await 
+          fetch (
+              'http://localhost:80/Order/CreateOrder',{
+                  method:"POST",
+                  headers: {
+                      "Content-Type":"application/json"
+                  },
+                  body:JSON.stringify({
+                  "Latitude":Latitude,
+                  "Longitude":Longitude,
+                  "Status":0,
+                  "RestaurantID": RestaurantID
+                  })
+                }
+              )
+      return data.status;
+
+
 ### Back-end
-Repository: [Individuele Project](https://github.com/timojw/Individuele-Project)
+Repository: [Back-End Individueel](https://github.com/timojw/Individuele-Project)
+
+As seen below I have decided to use a layer structure in my API. To keep the dependencies between the layers right I used a dependency injection container located in the program.cs
 
 ![structure](../Media/layers.jpg)
 
-As seen above I have used multiple layers to structure my API. To keep the dependencies right I used dependency inversion using an dependency injection container located in the program.cs
+Below you can see how my controller is structured. It has custom return messages. I have decided to build my back-end using the c# language because I had previous experience making an API in c# in the GroupProject.
 
 ![controller](../Media/controller.jpg)
 
-Above you can see how my controller is structured. It also has custom return messages. I have decided to build my back-end using the c# language because I had previous experience making an API in c# in the GroupProject.
+In the picture below you can see that i have used Swagger UI for the documentation of my API. Because it saves me a lot of time for API documentation. And is comprehensible for developers and non-developers. 
 
 ![swagger](../Media/Screenshot%202022-06-13%20113710.jpg)
-
-In the picture above you can see that i have used Swagger UI for the documentation of my API. Because it saves me a lot of time for API documentation. And is comprehensible for developers and non-developers.
 
 ## Outcome 2: Tooling and methodology
 You use software tooling and methodology that continuously monitors and improve the software quality during software development
