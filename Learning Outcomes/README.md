@@ -85,7 +85,7 @@ In the picture below you can see that i have used Swagger UI for the documentati
 
 ### Auth0
 
-For the Authentication I used an external service called Auth0. Using a pre-made authentication service saves me a lot of time.
+For the Authentication I used an external service called Auth0. Using a pre-made authentication service saves me a lot of time. It also is a safe way to do this.
 
 ![auth0](../Media/Auth0.png)
 
@@ -159,6 +159,14 @@ For the group project I extensively used Taiga as a way to keep track of our fea
 Taiga is definately a website that I would recommend for this. It seems more professional than trello which I used before. Although it did also have some disadvantages like the fact that you can only assign one person to a task.
 
 I chose not to make a project board for my own individual project due to the fact that it takes lots of time to properly maintain, which was time I could spend elsewhere. Also the benefits of using such a project board in group projects are way bigger due to the fact that other people are also able to see your progress that way.
+
+### Reflection
+The way that I planned this semester was poor. Doing all of the work in the last weeks is not a good way to do this. I could have been spared a lot of stress and sleepless nights if I had just started earlier. Although this is easier said than done appereantly. In the beginning of this year I had sirieus motivation issues, which is the main reason why I couldn't bring myself to work alot on school.
+
+This experience will definately be something that I'm going to take with me to next Semester. Next time I'm going to start earlier, I would also like to have more one on one talks with my teacher next semester.
+
+Although the start could have been better, my final couple of weeks were super productive this was partly attributed to my to-do list which I will talk about in more detail below.
+
 ### ToDo List
 For the last couple of weeks I decided to make a ToDo list for myself after a feedback talk with one of my teachers who recommended me this. I know this is kinda a primitive technique but it worked wonders for me. During these weeks I made the most progress, which was partly caused by the list.
 
