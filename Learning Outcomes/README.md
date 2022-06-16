@@ -83,6 +83,12 @@ In the picture below you can see that i have used Swagger UI for the documentati
 
 ![swagger](../Media/Screenshot%202022-06-13%20113710.jpg)
 
+### Auth0
+
+For the Authentication I used an external service called Auth0. Using a pre-made authentication service saves me a lot of time.
+
+![auth0](../Media/Auth0.png)
+
 ## Outcome 2: Tooling and methodology
 You use software tooling and methodology that continuously monitors and improve the software quality during software development
 
@@ -92,6 +98,13 @@ For this learning outcome I made automated tests for my API. I also used the aut
 2. Integration Testing
 3. Automated Testing
 4. Merge Checks / SonarCloud
+
+### SonarCloud
+Using a [github workflow](https://github.com/timojw/Individuele-Project/blob/main/.github/workflows/build.yml) sonarcloud scannes the code of both my front-end and back-end projects. 
+
+As you can see below it they both passed with good scores. But there are some code smells, I use sonarcloud to look up and fix these smells, vunerabilities and bugs.
+
+![sonarcloud](../Media/sonarcloud.png)
 
 ## Outcome 3: Design and implement release process
 You design and implement a semi automated software release process that matches the needs of the project context
