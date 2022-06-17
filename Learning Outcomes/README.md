@@ -1,12 +1,8 @@
 # My Learning Outcomes
 
 ## Table of Contents
-   - [Project description](#Project-description)
-   - [Class Diagram](#class-diagram)
-   - [C4 Models](#C4-Models)
-     - [C2 Container Diagram](#C2-Container-Diagram)
-     - [C3 Component Model](#C3-Component-Model)
    - [Outcome 1: You design and build user friendly full stack web applications](#Outcome-1-You-design-and-build-user-friendly-full-stack-web-applications)
+     - [Design](#design)
      - [Front-End](#front-end)
      - [Back-End](#back-end)
    - [Outcome 2: Tooling and methodology](#Outcome-2-Tooling-and-methodology)
@@ -14,11 +10,18 @@
      - [Docker](#docker)
      - [GitHub Workflows](#github-workflows)
    - [Outcome 4: Professional manner](#Outcome-4-Professional-manner)
+     - [Project Board](#project-board)
+     - [Reflection](#reflection)
+     - [To-Do List](#todo-list)
 
-## Project description
+## Outcome 1: You design and build user friendly full stack web applications
+You design and build user friendly full stack web applications
+
+### Design
+#### Project description
 The goal of this project was to create an application for food deliverers, to make them more efficient, easy to use and eventually to make sure the food gets delivered faster. I chose this project due to the fact that I work at a restaurant that also does food delivery. We use an existing app for that, although it is lacking some features and definately could use an upgrade.
 
-## Class Diagram
+#### Class Diagram
 Class diagrams are the blueprints of your system or subsystem. You can use class diagrams to model the objects that make up the system, to display the relationships between the objects, and to describe what those objects do and the services that they provide.
 ![class diagram](../Media/Class%20Diagram.png)
 
@@ -28,15 +31,13 @@ I have decided to make a Class Diagram because working with the class diagram wa
 - [Class Diagrams](https://www.ibm.com/docs/en/rsm/7.5.0?topic=structure-class-diagrams)
 
 
-## C4 Models 
-### C2 Container Diagram
+#### C4 Models 
+##### C2 Container Diagram
 In this diagram you can see that the homeowner has access to the HAP-dashboard. The homeowner has the possibility to Browse all IOT measurements from the browser when authorized by the login provider Auth0.
 
-### C3 Component Model
+##### C3 Component Model
 In this model you can see which services the client uses, if a user makes a request, it goes through the controller that allows the user to use the sensor data, the data access component will provide the functionality related to signing in and sensor data storage.
 
-## Outcome 1: You design and build user friendly full stack web applications
-You design and build user friendly full stack web applications
 
 ### Front-end
 Repository: [Front-End Individueel](https://github.com/timojw/frontend-Individueel2)
