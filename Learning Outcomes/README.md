@@ -95,10 +95,12 @@ You use software tooling and methodology that continuously monitors and improve 
 
 For this learning outcome I made automated tests for my API. I also used the automatically generated SQL Database which is stored locally as my test database to test Integration and Unit tests.
 
-1. Unit Testing
-2. Integration Testing
-3. Automated Testing
-4. Merge Checks / SonarCloud
+### Postman
+To test my backend I have used postman to setup some requests which a monitor will test every 2 hours. The results will get mailed to me when they are nog working.
+![postman](../Media/Postman.png)
+
+Due to me not having a lot of logic, I cant really make good unit tests. Although I did have plans to add more logic if I had had the time to do so. This is why I decided against making Unit tests.
+
 
 ### SonarCloud
 Using a [github workflow](https://github.com/timojw/Individuele-Project/blob/main/.github/workflows/build.yml) sonarcloud scannes the code of both my front-end and back-end projects. 
