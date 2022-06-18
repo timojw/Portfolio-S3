@@ -2,10 +2,14 @@ Onderzoek naar microservices
 
 ## INTRODUCTIE
 
-Voordat ik begon aan semester 3 heb ik een aantal dingen gehoord over microservices. Het was nu alleen nog maar de vraag of ik dat zou gebruiken voor het maken van mijn projecten. Met het groepsproject hadden we al snel besloten dit wel te doen. Maar nu moet ik weten of ik microservices ook voor mijn individuele project moet gebruiken. Ik ga dus onderzoeken of het het waard is om microservices te gebruiken.
-Eerst ga ik onderzoeken wat microservices zijn, wat de voor- en nadelen zijn en daaruit ga ik een conclusie trekken.
+### What
+Ik wil weten of ik een structuur met microservices moet gebruiken voor mijn project.
 
-Om te onderzoeken wat de voor- en nadelen zijn ga ik mijn eigen ervaringen tijdens het groepsproject in gedachte nemen (Lab Research). Ook zal ik iemand uit mijn klas die microservices voor zijn individuele project heeft gebruikt interviewen over zijn ervaringen (Field Research). Daarnaast zal ik dingen op het internet moeten opzoeken (Library Research).
+### Why
+Dit wil ik weten omdat ik een structuur moet kiezen. 
+
+### How
+Eerst ga ik onderzoeken wat microservices zijn, wat de voor- en nadelen zijn en daaruit ga ik een conclusie trekken. Om te onderzoeken wat de voor- en nadelen zijn ga ik mijn eigen ervaringen tijdens het groepsproject in gedachte nemen (Lab Research). Daarnaast zal ik dingen op het internet moeten opzoeken (Library Research).
 
 Moet ik microservices gebruiken voor mijn project?
 
@@ -18,9 +22,8 @@ Hieronder staat een architectuur diagram van hoe een applicatie die microservice
 ![architectuur](https://docs.microsoft.com/nl-NL/azure/architecture/includes/images/microservices-logical.png)
 Je ziet dat er meerdere services zijn en een API gateway die de gebruiker naar de goede service stuurt.
 
-### Waarom zijn microservices zo populair geworden?
-Wanneer een bedrijf een grote applicatie heeft gemaakt die jaren lang alleen maar groter is geworden word het na een tijdje moeilijk of onmogelijk om deze nog te kunnen onderhouden. Ook word het moeilijk om functionele toevoegingen te maken aan deze app.
-Veel grote bedrijven liepen tegen deze problemen aan. Veel van die bedrijven hadden dus een veel technische problemen opgebouwd door de jaren heen. Om die problemen op te lossen en in de toekomst te voorkomen zijn er veel die zijn geswitched naar een applicatie bestaande uit microservices.
+### Wat is mijn project?
+Ik wil een bezorgapp maken. Kijk in dit [analyse document](https://github.com/timojw/Individuele-Project/blob/main/README.md) voor een uitgebreidere uitleg over wat het project voorsteld. Maar ik ga voor de structuur is één grote service op te splitsen in meerdere kleine. Ik zou dan bijvoorbeel een Order Service en Deliverer Service kunnen maken.
 
 ### Wat zijn de voordelen van microservices?
 Een microservice-architectuur heeft veel voordelen tijdens het ontwikkelen van een applicatie. Het team krijgt daarmee de mogelijkheid om onafhankelijk van elkaar te ontwikkelen en te testen. Ook word het makkelijker om problemen op te zoeken. Al dit leidt tot snellere implementatie en probleemoplossing.
@@ -29,7 +32,6 @@ Uit mijn persoonlijke ervaring met het gebruik van microservices heb ik geconsta
 ### Wat zijn de nadelen van microservices?
 Microservices hebben ook een aantal nadelen. Een daarvan is dat het lastig is om een grote hoeveelheid services te managen. Ook is het werken met microservices in het algemeen gewoon complexer. Daarnaast heb ik ook gemerkt tijdens het werken aan het groepsproject dat de communicatie tussen de verschillende services een lastig puntje is. Er is een grotere kans op errors tijdens die communicatie. Ook is het moeilijker om algemene testen uit te voeren over het gesplitste systeem.
 
-### Wat is mijn project?
 
 ## CONCLUSIE
 
