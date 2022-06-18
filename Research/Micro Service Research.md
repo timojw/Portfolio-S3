@@ -1,7 +1,4 @@
-Onderzoek naar microservices
-
-## INTRODUCTIE
-
+# Onderzoek naar microservices
 ### What
 Ik wil weten of ik een structuur met microservices moet gebruiken voor mijn project.
 
