@@ -25,7 +25,7 @@ The goal of this project was to create an application for food deliverers, to ma
 Class diagrams are the blueprints of your system or subsystem. You can use class diagrams to model the objects that make up the system, to display the relationships between the objects, and to describe what those objects do and the services that they provide.
 ![class diagram](../Media/Class%20Diagram.png)
 
-I have decided to make a Class Diagram because working with the class diagram was great for me in past semesters. It also really sped up the development further on. By making it I also finaly decided on what the structure of the project would be for the time being.
+I have decided to make a Class Diagram because working with the class diagram was great for me in past semesters. It also really sped up the development further on. By making it I also finally decided on what the structure of the project would be for the time being.
 
 #### Sources:
 - [Class Diagrams](https://www.ibm.com/docs/en/rsm/7.5.0?topic=structure-class-diagrams)
@@ -42,13 +42,12 @@ In this model you can see which services the client uses, if a user makes a requ
 ### Front-end
 Repository: [Front-End Individueel](https://github.com/timojw/frontend-Individueel2)
 
-Due to the tight me not having a lot of time I decided to not focus much effort on the frontend. I chose this because I dislike frontend development and had heard that a minimal front-end would be sufficient for me. The frontend was made in TypeScript React. This was the first time I used this framework which is why I needed some time to get used to it. Overall I would say that the framework worked for me although the documentation on Typescript was sometimes not as good as the documentation on Javascript. 
+Due me not having a lot of time I decided to not focus much effort on the front end. I chose this because I dislike front end development and had heard that a minimal front-end would be sufficient for me. The front end was made in Typescript React. This was the first time I used this framework which is why I needed some time to get used to it. Overall I would say that the framework worked for me although the documentation on Typescript was sometimes not as good as the documentation on JavaScript. 
 
-I have the Frontend communicating with my API as you can see below. I can either request data from the database or add to it. Although the current possibilities are quite limited, it does show that I am capable of making the communication happen. If I had had more time I would have definately liked to add more functionality
-
+I have the Front end communicating with my API as you can see below. I can either request data from the database or add to it. Although the current possibilities are quite limited, it does show that I am capable of making the communication happen. If I had had more time I would have definitely liked to add more functionality.
 ![addtodatabase](../Media/ordercreation.png)
 
-Hieronder staat de code voor het maken van de http request naar de API. De informatie word in de body meegegeven en is een JSON formaat.
+Below is the code for the creation of the HTTP request to the API. The information is being send in the body and is a JSON format.
 
     export const CreateOrder = async (Latitude:number | undefined, Longitude:number | undefined, RestaurantID:number | undefined) => {
       const data = await 
@@ -96,10 +95,10 @@ You use software tooling and methodology that continuously monitors and improve 
 For this learning outcome I made automated tests for my API. I also used the automatically generated SQL Database which is stored locally as my test database to test Integration and Unit tests.
 
 ### Postman
-To test my backend I have used postman to setup some requests which a monitor will test every 2 hours. The results will get mailed to me when they are nog working.
+To test my back end I have used postman to setup some requests which a monitor will test every 2 hours. The results will get mailed to me when they are not working.
 ![postman](../Media/Postman.png)
 
-Due to me not having a lot of logic, I cant really make good unit tests. Although I did have plans to add more logic if I had had the time to do so. This is why I decided against making Unit tests.
+Due to me not having a lot of logic, I can't really make good unit tests. Although I did have plans to add more logic if I had had the time to do so. This is why I decided against making Unit tests.
 
 
 ### SonarCloud
@@ -114,7 +113,7 @@ You design and implement a semi automated software release process that matches 
 
 ### Docker
 
-In simple terms, Docker is a software platform that simplifies the process of building, running, managing and distributing applications. It does this by virtualizing the operating system of the computer on which it is installed and running. It allows us to use containers of the application that can run everywhere. I use docker because I want to automatically build and deploy my application once I push to the main branch on github.
+In simple terms, Docker is a software platform that simplifies the process of building, running, managing and distributing applications. It does this by visualizing the operating system of the computer on which it is installed and running. It allows us to use containers of the application that can run everywhere. I use docker because I want to automatically build and deploy my application once I push to the main branch on GitHub.
 
 Below you can see the containers I'm using. There is one for the API, Database and Front-End. They all run on the same docker. I also added a container for watchtower, which will check for updates every 10 minutes and restart the docker containers when changes are found.
 
@@ -122,11 +121,11 @@ Below you can see the containers I'm using. There is one for the API, Database a
 
 ### GitHub Workflows
 
-To automatically deploy I use a Github workflow which contains some tests as well. In the picture below you can see how the steps for the Build part of the workflow are structured. Both the Front-End and API automatically deploy.
+To automatically deploy I use a GitHub workflow which contains some tests as well. In the picture below you can see how the steps for the Build part of the workflow are structured. Both the Front-End and API automatically deploy.
 
 ![deployment](../Media/automaticdeployment1.png)
 
-Below you can see part of the file that basically tells github how to build and deploy the application. You can only see the build part.
+Below you can see part of the file that basically tells GitHub how to build and deploy the application. You can only see the build part.
 
     build:
         runs-on: ubuntu-latest
