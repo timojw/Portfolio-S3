@@ -33,11 +33,16 @@ I have decided to make a Class Diagram because working with the class diagram wa
 
 #### C4 Models 
 ##### C2 Container Diagram
-In this diagram you can see that the homeowner has access to the HAP-dashboard. The homeowner has the possibility to Browse all IOT measurements from the browser when authorized by the login provider Auth0.
+A Container diagram zooms into the software system in scope, showing the high-level technical building blocks.
+
+![c2](../Media/c2.png)
 
 ##### C3 Component Model
-In this model you can see which services the client uses, if a user makes a request, it goes through the controller that allows the user to use the sensor data, the data access component will provide the functionality related to signing in and sensor data storage.
+A Component diagram zooms into an individual container, showing the components inside it.
 
+![c3](../Media/c3.png)
+
+- [C4 Source](https://c4model.com/)
 
 ### Front-end
 Repository: [Front-End Individueel](https://github.com/timojw/frontend-Individueel2)
