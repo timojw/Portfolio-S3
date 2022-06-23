@@ -6,10 +6,14 @@
      - [Front-End](#front-end)
      - [Back-End](#back-end)
    - [Outcome 2: Tooling and methodology](#Outcome-2-Tooling-and-methodology)
-   - [Outcome 3: Design and implement (release process)](#Outcome-3-Design-and-implement-release-process)
+   - [Outcome 3: Agile Methods](#outcome-3-agile-methods)
+   - [Outcome 4: Design and implement (release process)](#outcome-4-design-and-implement-release-process)
      - [Docker](#docker)
      - [GitHub Workflows](#github-workflows)
-   - [Outcome 4: Professional manner](#Outcome-4-Professional-manner)
+   - [Outcome 5: Cultural Differences](#outcome-5-you-recognize-and-take-into-account-cultural-differences)
+   - [Outcome 6: ](#outcome-6-you-translate-requirements-to-extend-existing-designs)
+   - [Outcome 7: Business Processes](#outcome-7-you-analyze-and-describe-simple-business-processes)
+   - [Outcome 8: Proffesional Manner](#outcome-8-you-act-in-a-professional-manner)
      - [Project Board](#project-board)
      - [Reflection](#reflection)
      - [To-Do List](#todo-list)
@@ -113,7 +117,11 @@ As you can see below it they both passed with good scores. But there are some co
 
 ![sonarcloud](../Media/sonarcloud.png)
 
-## Outcome 3: Design and implement release process
+## Outcome 3: Agile Methods
+
+
+## Outcome 4: Design and implement release process
+
 You design and implement a semi automated software release process that matches the needs of the project context
 
 ### Docker
@@ -155,8 +163,13 @@ Full file:
 - [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 
 
-## Outcome 4: Professional manner
+## Outcome 5: You recognize and take into account cultural differences
 
+## Outcome 6: You translate requirements to extend existing designs
+
+## Outcome 7: You analyze and describe simple business processes
+
+## Outcome 8: You act in a professional manner
 You act in a professional manner during software development and learning
 ### Project Board
 For the group project I extensively used Taiga as a way to keep track of our features and the progress we were making. All the tasks were linked to a requirement that we put up before the project started. Once a sprint was over we devided a few of the remaining learning outcomes into tasks and divided them over our group.
@@ -178,3 +191,4 @@ Although the start could have been better, my final couple of weeks were super p
 For the last couple of weeks I decided to make a ToDo list for myself after a feedback talk with one of my teachers who recommended me this. I know this is kinda a primitive technique but it worked wonders for me. During these weeks I made the most progress, which was partly caused by the list.
 
 ![todo](../Media/todo.png)
+
