@@ -180,10 +180,11 @@ Check out my ethics document [here](../Research/Ethics.md)!
 
 ## Outcome 6: You translate requirements to extend existing designs
 ### Design
-Before I started working on my IP I decided to make requirements and user stories to get started. This was to keep my priorities straight and to make it clear for myself and others what this project is supposed to be. My requirements and userstories are listed [here](https://github.com/timojw/Individuele-Project/blob/main/README.md). For the technical design you should take a look at [learning outcome one](#design). After I finished designing what I wanted to make, I started programming.
+Before I started working on my IP I decided to make requirements and user stories to get started. This was to keep my priorities straight and to make it clear for myself and others what this project is supposed to be. My requirements and userstories are listed [here](https://github.com/timojw/Individuele-Project/blob/main/README.md). For the technical design you should take a look at [learning outcome one](#design). After I finished designing what I wanted to make, I showed the stakeholders of my project (In this case it was my teacher and me). After changing some things around after his feedback I started programming.
 
 Together with my group we designed a UI before building it in react. Below you can see the UI design that we made on a whiteboard.
 ![deez](../Media/ui.jpg)
+
 ### Taiga
 With our groupproject we all sat down and decided on the requirements and made them into userstories. We did this with our team members and stakeholders, in this case the stakeholders where Bert and Pekka (Finish teacher). After we did that we made a scrumboard on [Taiga](https://tree.taiga.io/project/jeffrey_derksen-international-project/timeline), in which we devided the userstories in different tasks which could be distributed among the group members.
 
