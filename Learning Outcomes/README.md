@@ -165,12 +165,14 @@ Full file:
 
 ## Outcome 5: You recognize and take into account cultural differences
 To prove that I can recognize and take into account cultural differences I have written a research paper on Culteral Differences. Trying to use a dot framework.
+
 Check out my paper [here](../Research/Cultural%20Differences.md)!
 
 ## Outcome 6: You translate requirements to extend existing designs
 
 ## Outcome 7: You analyze and describe simple business processes
 For this learning outcome I have written a document on business processes. In this document I write down what business processes are, how they relate to software development and, most importantly, how I used business processes in my project. I have also visualized a business process from my IP and described all the steps.
+
 Check out my business process document [here](../Research/Business%20Processes.md)!
 
 ## Outcome 8: You act in a professional manner
