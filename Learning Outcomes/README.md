@@ -165,15 +165,18 @@ Full file:
 
 
 ## Outcome 5: You recognize and take into account cultural differences
+### Cultural Differences
 To prove that I can recognize and take into account cultural differences I have written a research paper on Culteral Differences. Trying to use a dot framework.
 
 Check out my paper [here](../Research/Cultural%20Differences.md)!
 
+### Ethics
 I have also written a document about ethics. In this document I answer questions like, What are ethics and what they have to do with software development. Later I also talk about what a software engineer can do to adress ethical subjects and what ethical problems in my project I encountered.
 
-Check out my ethics document [here](../Research/Ethics.md)
+Check out my ethics document [here](../Research/Ethics.md)!
 
 ## Outcome 6: You translate requirements to extend existing designs
+
 
 ## Outcome 7: You analyze and describe simple business processes
 For this learning outcome I have written a document on business processes. In this document I write down what business processes are, how they relate to software development and, most importantly, how I used business processes in my project. I have also visualized a business process from my IP and described all the steps.
