@@ -11,10 +11,11 @@ Software kan een goed business process beter maken door bepaalde stappen efficie
 
 Business process mapping helpt bij het verbeteren van een business process door een betere inzicht erin te geven. Het geeft een visuele afbeelding van hoe het process in elkaar zit en hoe het werkt. Hierdoor kunnen bedrijven een beter beeld geven van hoe hun bedrijf precies werkt. Ik heb hieronder het business process van mijn eigen project uitgewerkt.
 
-![b](../Media/business%20process.png)
+![](../Media/business%20process.png)
 
+Zoals je kan zien gaat de business process hierboven door het gedeelte bestellen. Het begint met de customer die een bestelling probeert te plaatsen op de website. Daarna verwerkt de website die bestelling en stuurt het door naar restaurant eigenaar. Maar dat alleen wanneer het ingevulde adres binnen de bezorg afstand past. Daar checkt het systeem ook naar. Vervolgens gaat het restaurant de bestelling klaarmaken en een bezorger toewijzen. Het systeem geeft dat vervolgens door aan de customer als de bezorger. Dit gebeurt tegelijk. Daarna bezorgt de bezorger op het doorgegeven adres. Het systeem veranderd vervolgens voor de laatste keer de status van de bezorging, naar bezorgd.
 
 ## Sources:
--[What is a business process in software engineering?](https://www.educative.io/answers/what-is-a-business-process-in-software-engineering)
+- [What is a business process in software engineering?](https://www.educative.io/answers/what-is-a-business-process-in-software-engineering)
 
--[How IT and Business Process Fit Together](https://www.youtube.com/watch?v=3iAp9me4P1c)
+- [How IT and Business Process Fit Together](https://www.youtube.com/watch?v=3iAp9me4P1c)
