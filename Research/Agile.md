@@ -1,7 +1,12 @@
 # Agile
-## Introductie
+__What?__
+Ik wil weten welke agile metode handig is om te gebruiken voor mijn project.
 
-In dit document ga ik 3 verschillende Agile werk methodes kort onderzoeken en de verschillen en overeenkomsten documenteren. Deze 3 methodes zijn een paar van de meest gebruikte Agile methodes. Maar eerst ga ik een klein stukje onderzoeken over wat Agile eigenlijk inhoud.
+__Why?__
+Dat doe ik omdat ik er zelf een moet kiezen voor mijn individuele project maar ook een voor mijn groepsproject.
+
+__How?__
+Dit wil ik gaan doen door 3 verschillende Agile werk methodes kort te onderzoeken en de verschillen en overeenkomsten te documenteren. Deze 3 methodes zijn een paar van de meest gebruikte Agile methodes. Maar eerst ga ik een klein stukje onderzoeken over wat Agile eigenlijk inhoud (library research).
 
 ## Wat is agile?
 Er zijn veel agile methodes. Maar ze hebben allemaal iets in common. Om [de agile software development manifesto](https://agilemanifesto.org/) the quoten: 
