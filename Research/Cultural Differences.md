@@ -91,6 +91,8 @@ Voordat ik naar Finland was gegaan heb ik redelijk veel gereisd maar meestal ble
 Dat was helemaal anders tijdens mijn tijd in Finland. 
 Gelukkig waren de Finse studenten erg aardig en ze vertelde veel over Finland en de cultuur daar.
 
+Wel ga ik volgende keer eerst opzoeken hoe de Nederlandse cultuur en Finse cultuur verschillen en hoe ik daar het best rekening mee kan houden. Ook ga ik de landen vergelijken met het Hofstede model.
+
 ## Sources
 
 - [Cultuur](https://nl.wikipedia.org/wiki/Cultuur)
