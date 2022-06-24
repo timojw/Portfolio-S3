@@ -120,6 +120,9 @@ As you can see below it they both passed with good scores. But there are some co
 
 ## Outcome 3: Agile Methods
 
+For this learning outcome I setup a document in which I research what Agile is and also take a look at 3 different Agile methods to see their differences, advantages and disadvantages.
+
+Check out my Agile document [here](../Research/Agile.md)!
 
 ## Outcome 4: Design and implement release process
 
