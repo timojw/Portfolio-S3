@@ -54,6 +54,7 @@ Repository: [Front-End Individueel](https://github.com/timojw/frontend-Individue
 Due me not having a lot of time I decided to not focus much effort on the front end. I chose this because I dislike front end development and had heard that a minimal front-end would be sufficient for me. The front end was made in Typescript React. This was the first time I used this framework which is why I needed some time to get used to it. Overall I would say that the framework worked for me although the documentation on Typescript was sometimes not as good as the documentation on JavaScript. 
 
 I have the Front end communicating with my API as you can see below. I can either request data from the database or add to it. Although the current possibilities are quite limited, it does show that I am capable of making the communication happen. If I had had more time I would have definitely liked to add more functionality.
+
 ![addtodatabase](../Media/ordercreation.png)
 
 Below is the code for the creation of the HTTP request to the API. The information is being send in the body and is a JSON format.
@@ -167,6 +168,10 @@ Full file:
 To prove that I can recognize and take into account cultural differences I have written a research paper on Culteral Differences. Trying to use a dot framework.
 
 Check out my paper [here](../Research/Cultural%20Differences.md)!
+
+I have also written a document about ethics. In this document I answer questions like, What are ethics and what they have to do with software development. Later I also talk about what a software engineer can do to adress ethical subjects and what ethical problems in my project I encountered.
+
+Check out my ethics document [here](../Research/Ethics.md)
 
 ## Outcome 6: You translate requirements to extend existing designs
 
