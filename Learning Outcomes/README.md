@@ -176,7 +176,13 @@ I have also written a document about ethics. In this document I answer questions
 Check out my ethics document [here](../Research/Ethics.md)!
 
 ## Outcome 6: You translate requirements to extend existing designs
+### Design
+Before I started working on my IP I decided to make requirements and user stories to get started. This was to keep my priorities straight and to make it clear for myself and others what this project is supposed to be. My requirements and userstories are listed [here](https://github.com/timojw/Individuele-Project/blob/main/README.md). For the technical design you should take a look at [learning outcome one](#design). After I finished designing what I wanted to make, I started programming.
 
+### Taiga
+With our groupproject we all sat down and decided on the requirements and made them into userstories. We did this with our team members and stakeholders, in this case the stakeholders where Bert and Pekka (Finish teacher). After we did that we made a scrumboard on [Taiga](https://tree.taiga.io/project/jeffrey_derksen-international-project/timeline), in which we devided the userstories in different tasks which could be distributed among the group members.
+
+More about the Project board can be found in [learning outcome 8](#project-board)!
 
 ## Outcome 7: You analyze and describe simple business processes
 For this learning outcome I have written a document on business processes. In this document I write down what business processes are, how they relate to software development and, most importantly, how I used business processes in my project. I have also visualized a business process from my IP and described all the steps.
